@@ -1,0 +1,195 @@
+<!DOCTYPE html>                     <!-- Define o tipo de documento como HTML -->
+<html lang="en">                    <!-- Inicia o elemento HTML e define o idioma da página como inglês -->
+
+<head>
+    <meta charset="UTF-8">          <!-- Especifica o conjunto de caracteres UTF-8 para a página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a configuração da viewport -->
+    <title>Jogo da Memoria</title>  <!-- Define o título da página -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Importa o arquivo CSS -->
+</head>
+
+<body>
+
+    <div class="game-container">
+        <p><h2>Quantidade de erros:</h2></p>
+        <div id="error-count" class="error-count">0</div><!-- Elemento para exibir o contador de erros -->
+
+        <section class="memory-game">
+            <!-- Carta 1 -->
+            <div class="memory-card" data-framework="image1">
+                <!-- Imagem frontal -->
+                <img class="front-face" src="images/image1.png" alt="image1" />
+                <!-- Imagem traseira -->
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+            
+            </div>
+
+            <!-- Carta 2 -->
+            <div class="memory-card" data-framework="image1">
+                
+                <img class="front-face" src="images/image1.png" alt="image1" />
+        
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+            
+            </div>
+      
+            <!-- Carta 3 -->
+            <div class="memory-card" data-framework="image2">
+                
+                <img class="front-face" src="images/image2.png" alt="image2" />
+        
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+            
+            <!-- Carta 4 -->      
+            <div class="memory-card" data-framework="image2">
+        
+                <img class="front-face" src="images/image2.png" alt="image2" />
+        
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>      
+      
+            <!-- Carta 5 -->      
+            <div class="memory-card" data-framework="image3">
+        
+                <img class="front-face" src="images/image3.png" alt="image3" />
+        
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+      
+            <!-- Carta 6 -->      
+            <div class="memory-card" data-framework="image3">
+        
+                <img class="front-face" src="images/image3.png" alt="image3" />
+        
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+  
+            <!-- Carta 7 -->      
+            <div class="memory-card" data-framework="image4">
+          
+                <img class="front-face" src="images/image4.png" alt="image4" />
+          
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+            
+            <!-- Carta 8 -->      
+            <div class="memory-card" data-framework="image4">
+          
+                <img class="front-face" src="images/image4.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+        
+            <!-- Carta 9 -->      
+            <div class="memory-card" data-framework="image5">
+          
+                <img class="front-face" src="images/image5.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 10 -->      
+            <div class="memory-card" data-framework="image5">
+          
+                <img class="front-face" src="images/image5.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 11 -->      
+            <div class="memory-card" data-framework="image6">
+          
+                <img class="front-face" src="images/image6.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 12 -->      
+            <div class="memory-card" data-framework="image6">
+          
+                <img class="front-face" src="images/image6.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 13 -->      
+            <div class="memory-card" data-framework="image7">
+          
+                <img class="front-face" src="images/image7.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 14 -->      
+            <div class="memory-card" data-framework="image7">
+          
+                <img class="front-face" src="images/image7.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 15 -->      
+            <div class="memory-card" data-framework="image8">
+          
+                <img class="front-face" src="images/image8.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 16 -->      
+            <div class="memory-card" data-framework="image8">
+          
+                <img class="front-face" src="images/image8.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 17 -->      
+            <div class="memory-card" data-framework="image9">
+          
+                <img class="front-face" src="images/image9.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+            <!-- Carta 18 -->      
+            <div class="memory-card" data-framework="image9">
+          
+                <img class="front-face" src="images/image9.png" alt="image4" />
+         
+                <img class="back-face" src="images/costa.png" alt="Costa" />
+      
+            </div>
+
+        </section>
+
+    <!-- Botão de reset do jogo -->
+    <button id="reset-button">Resetar Jogo</button>
+
+    </div>
+
+    
+
+    <!-- Script externo para manipular o jogo -->
+    <script src="script.js"></script>
+    <noscript>Por favor habiliar o JavaScript para ver o site completo</noscript>
+
+</body>
+
+</html>
