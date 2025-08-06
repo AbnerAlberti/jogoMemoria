@@ -7,6 +7,6 @@
 * Código está aberto para quem deseja verificar e copiar
 
 ## Autor
-Abner Henrique Alberti
-https://www.linkedin.com/in/abner-henrique-alberti-607434282/
+* Abner Henrique Alberti
+* https://www.linkedin.com/in/abner-henrique-alberti-607434282/
 
